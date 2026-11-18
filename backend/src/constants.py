@@ -9,3 +9,8 @@ LINE_STATES=('idle','busy')
 PERMIT_STATES=('planned','permitted','in_use','completed')
 WINDOW_STATES=('planned','confirmed','in_use','completed')
 RETEST_STATES=('commissioned','reported','closed')
+
+TRAY_STATES=('draft','queued','suggested','review','adopted','failed')
+TRAY_MAX_BOTTLES=8
+TRAY_MAX_CANDIDATES=8
+TRAY_TIE_EPSILON=.5
